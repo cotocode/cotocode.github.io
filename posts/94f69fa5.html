@@ -1,0 +1,4830 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+
+
+    <meta charset="utf-8">
+    <meta name="keywords" content="Leetcode题目表, Co2">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google-site-verification" content="pBWoGvVEP36FzzS4xIpoMejc5UKi3RKcxd9rWWcjiDg" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>Leetcode题目表 | Co2</title>
+
+    <link rel="icon" type="image/jpeg" href="https://img1.imgtp.com/2022/08/01/oXtp55Yt.jpg">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?aaa6c944b0ed07922901d7fc571a171d";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+
+
+<meta name="generator" content="Hexo 5.2.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Co2" type="application/atom+xml">
+</head>
+
+
+
+   <style>
+    body{
+       background-image: url(https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210101002438.jpg);
+       background-repeat:no-repeat;
+       background-size:cover;
+       background-attachment:fixed;
+    }
+</style>
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="https://img1.imgtp.com/2022/08/01/UwboQQcP.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Co2</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/archives">
+          
+          <i class="fas fa-paper-plane" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>时轴</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories">
+          
+          <i class="fas fa-bookmark" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>分类</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/tags">
+          
+          <i class="fas fa-tag" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>标签</span>
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-heartbeat" style="zoom: 0.6;"></i>
+      
+      <span>清单</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/List/music">
+          
+          <i class="fas fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>音乐</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/List/galleries">
+          
+          <i class="fas fa-image" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>相册</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/List/movies">
+          
+          <i class="fas fa-film" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>视频</span>
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-envelope" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tools" class="waves-effect waves-light">
+      
+      <i class="fas fa-suitcase" style="zoom: 0.6;"></i>
+      
+      <span>百宝箱</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/Windows" class="waves-effect waves-light">
+      
+      <i class="fas fa-desktop" style="zoom: 0.6;"></i>
+      
+      <span>Windows</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-link" style="zoom: 0.6;"></i>
+      
+      <span>友链</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="https://img1.imgtp.com/2022/08/01/UwboQQcP.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Co2</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-archive"></i>
+			
+			归档
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/archives " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-paper-plane" style="position: absolute;left:50px" ></i>
+			      
+		          <span>时轴</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/categories " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-bookmark" style="position: absolute;left:50px" ></i>
+			      
+		          <span>分类</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/tags " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-tag" style="position: absolute;left:50px" ></i>
+			      
+		          <span>标签</span>
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-heartbeat"></i>
+			
+			清单
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/List/music " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-music" style="position: absolute;left:50px" ></i>
+			      
+		          <span>音乐</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/List/galleries " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-image" style="position: absolute;left:50px" ></i>
+			      
+		          <span>相册</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/List/movies " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-film" style="position: absolute;left:50px" ></i>
+			      
+		          <span>视频</span>
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-envelope"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tools" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-suitcase"></i>
+			
+			百宝箱
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/Windows" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-desktop"></i>
+			
+			Windows
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-link"></i>
+			
+			友链
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/cotocode/" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/cotocode/" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://img1.imgtp.com/2022/09/10/UWwDEXlH.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">Leetcode题目表</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+
+.toc-widget {
+    padding-left: 20px;
+    width: 345px;
+    background-color: rgb(255, 255, 255,0.7);
+    border-radius: 10px;
+    box-shadow: 0 10px 35px 2px rgba(0, 0, 0, .15), 0 5px 15px rgba(0, 0, 0, .07), 0 2px 5px -5px rgba(0, 0, 0, .1) !important;
+}
+
+#toc-content {
+    margin-bottom: 20px;
+}
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+    
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+        bottom: 120px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/leetcode/">
+                                <span class="chip bg-color">leetcode</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/leetcode/" class="post-category">
+                                leetcode
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2022-08-13
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2022-09-18
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    5.3k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    21 分
+                </div>
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h1 id="Part1-基础题"><a href="#Part1-基础题" class="headerlink" title="Part1-基础题"></a>Part1-基础题</h1><h2 id="基础题-一维数组"><a href="#基础题-一维数组" class="headerlink" title="基础题-一维数组"></a>基础题-一维数组</h2><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1、两数之和</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>15、三数之和</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>16、最接近的三数之和</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>18、四数之和</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>217、存在重复元素</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>219、存在重复元素II</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>228、汇总区间</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>280、摆动排序</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>349、两个数组的交集</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>350、两个数组的交集</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>414、第三大的数</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>581、最短无序连续子数组</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>605、种花问题 也是很不错的题目</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>628、三个数的最大乘积</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>643、子数组最大平均数 I</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>665、非递减数列 很好的题</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>674、最长连续递增序列</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>697、数组的度</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>717、1比特与2比特字符</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>724、寻找数组的中心索引</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>747、至少是其他数字两倍的最大数</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>849、到最近的人的最大距离 好题</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>914、卡牌分组 这也是道好题</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>989、数组形式的整数加法</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>1128、等价多米诺骨牌对的数量</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>11、盛最多水的容器</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>42、接雨水</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>128、最长连续序列</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>189、旋转数组</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>324、摆动排序II</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>442、数组中重复的数据</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>457、环形数组是否存在循环</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>611、有效三角形的个数</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>31、下一个排列 (7+)</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>41、缺失的第一个正数 (7+)</td>
+<td>Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="基础题-二维矩阵"><a href="#基础题-二维矩阵" class="headerlink" title="基础题-二维矩阵"></a>基础题-二维矩阵</h2><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>36 有效的数独</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>554 砖墙</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>48 旋转图像</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>54 螺旋矩阵</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>59 螺旋矩阵II</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>73 矩阵置零</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>240 搜索二维矩阵</td>
+<td>Medium</td>
+<td><a target="_blank" rel="noopener" href="https://pass_co2.gitee.io/posts/234bb906.html">剑指 Offer 04. 二维数组中的查找</a></td>
+</tr>
+<tr>
+<td>289 生命游戏</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>419 甲板上的战舰</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>463 岛屿周长</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>498 对角线遍历</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>723 粉碎糖果</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1706 球会落何处</td>
+<td>Medium</td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="基础题-字符串"><a href="#基础题-字符串" class="headerlink" title="基础题-字符串"></a>基础题-字符串</h2><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>6、Z字变换</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>13、罗马数字转整数</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>49、字母异位词分组</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>58、最后一个单词的长度</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>67、二进制求和</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>125、验证回文串</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>151、翻转字符串里的单词</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>165、比较版本号</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>205、同构字符串</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>290、单词规律</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>299、猜数字游戏</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>344、反转字符串</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>383、赎金信</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>392、判断子序列</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>434、字符串中的单词数</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>482、密钥格式化</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>680、验证回文字符串 Ⅱ</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>686、重复叠加字符串匹配</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>819、最常见的单词</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>859、亲密字符串</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>8、字符串转换整数</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>17、电话号码的字母组合</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>65、有效数字</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>165、比较版本号</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1332、删除回文子序列</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>2047、句子中有效的单词数</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>777、在LR字符串中交换相邻字符</td>
+<td>Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h1 id="Part2-数据结构题"><a href="#Part2-数据结构题" class="headerlink" title="Part2-数据结构题"></a>Part2-数据结构题</h1><h2 id="链表"><a href="#链表" class="headerlink" title="链表"></a>链表</h2><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2 两数相加</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>19 删除链表的倒数第N个结点</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>21 合并两个有序链表</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>61、旋转链表</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>82、删除排序链表中的重复元素</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>83、删除排序链表中的重复元素</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>86、分隔链表</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>141、环形链表</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>147、对链表进行插入排序</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>206、反转链表</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>237、删除链表中的节点</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>369 单链表加一</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>445 两数相加II</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>707 设计链表</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>23 合并K个升序链表</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>24 两两交换链表中的节点</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>25 K个一组翻转链表</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>138 复制带随机指针的链表</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>142 环形链表II</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>148 排序链表</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>160 相交链表</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>234 回文链表</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>328 奇偶链表</td>
+<td>Medium</td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="二叉树"><a href="#二叉树" class="headerlink" title="二叉树"></a>二叉树</h2><h3 id="二叉树-树结构与基础算法"><a href="#二叉树-树结构与基础算法" class="headerlink" title="二叉树-树结构与基础算法"></a>二叉树-树结构与基础算法</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>94、二叉树的中序遍历</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>95、不同的二叉搜索树 II</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>96、不同的二叉搜索树</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>98、验证二叉搜索树</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>99、恢复二叉搜索树</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>100、相同的树</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>101、对称二叉树</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>102、二叉树的层序遍历</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>103、二叉树的锯齿形层序遍历</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>104、二叉树的最大深度</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>105、从前序与中序遍历序列构造二叉树</td>
+<td>Easy</td>
+<td><a target="_blank" rel="noopener" href="https://pass_co2.gitee.io/posts/ba42e8bc.html">剑指 Offer 07. 重建二叉树</a></td>
+</tr>
+<tr>
+<td>106、从中序与后序遍历序列构造二叉树</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>107、二叉树的层序遍历 II</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>108、将有序数组转换为二叉搜索树</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>109、有序链表转换二叉搜索树</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>110、平衡二叉树</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>111、二叉树的最小深度</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>112、路径总和</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>113、路径总和 II</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>114、二叉树展开为链表</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>226 翻转二叉树</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>314 二叉树的垂直遍历</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>144 二叉树的前序遍历</td>
+<td>递归：Easy    迭代：Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>116、填充每个节点的下一个右侧节点指针</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>117、填充每个节点的下一个右侧节点指针 II</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>222 完全二叉树的节点个数</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>230 二叉搜索树的第K小元素</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>236 二叉树的最近公共祖先</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>297 二叉树的序列化与反序列化</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>331 验证二叉树的前序序列化</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>662 二叉树最大宽度</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>889 前序与后序序列构造二叉树</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>145 二叉树的后序遍历</td>
+<td>递归：Easy    迭代：Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="二叉树-树形DP"><a href="#二叉树-树形DP" class="headerlink" title="二叉树-树形DP"></a>二叉树-树形DP</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>124 二叉树中的最大路径和</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>333 最大BST子树</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>337 打家劫舍III</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>687 最长同值路径</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>2313 二叉树得到结果的最少翻转次数</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>968 监控二叉树</td>
+<td>Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="多叉树"><a href="#多叉树" class="headerlink" title="多叉树"></a>多叉树</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>429 N叉树的层序遍历</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>427 建立四叉树</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>428 序列化和反序列化N叉树</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1490 克隆N叉树</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1516 移动N叉树的子树</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1522 N叉树的直径</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>431 将N叉树编码为二叉树</td>
+<td>Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="图"><a href="#图" class="headerlink" title="图"></a>图</h2><h3 id="图-图结构与基础图算法"><a href="#图-图结构与基础图算法" class="headerlink" title="图-图结构与基础图算法"></a>图-图结构与基础图算法</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>323 无向图中连通分量的数目</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>547 省份数量</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>797 所有可能的路径</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>1971 寻找图中是否存在路径</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>133 克隆图</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>261 以图判树</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>332 重新安排行程</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>743 网络延迟时间</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>785 判断二分图</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>787 K站中转内最便宜的航班</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>802 找到最终的安全状态</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>847 访问所有节点的最短路径</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1719 重构一棵树的方案数</td>
+<td>very Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="图-最短路"><a href="#图-最短路" class="headerlink" title="图-最短路"></a>图-最短路</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1334 阈值距离内邻居最少的城市</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1976 到达目的地的方案数</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>2203 得到要求路径的最小带权子图</td>
+<td>Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="图-拓扑排序"><a href="#图-拓扑排序" class="headerlink" title="图-拓扑排序"></a>图-拓扑排序</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>207 课程表</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>210 课程表II</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>269 火星词典</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>2050 并行课程III</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>310 最小高度树</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>444 序列重建</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>2127 参加会议的最多员工数</td>
+<td>very Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h2><h3 id="栈-基础"><a href="#栈-基础" class="headerlink" title="栈-基础"></a>栈-基础</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>20、有效的括号 (3)</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>71、简化路径 (3)</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>150、逆波兰表达式求值 (5-)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>155、最小栈 (4-)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>224、基本计算器 (5+)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>225、用队列实现栈 (4+)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>227、基本计算器II (6-)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>232、用栈实现队列 (4+)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>394、字符串解码</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>636、函数的独占时间</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>682、棒球比赛</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>726、原子的数量 (6)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>739、每日温度 经典</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>844、比较含退格的字符串</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>856、括号的分数</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>921、使括号有效的最少添加</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>946、验证栈序列 (4+)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1003、检查替换后的词是否有效</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1047、删除字符串中的所有相邻重复项</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1190、反转每对括号间的子串</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1209、删除字符串中的所有相邻重复项</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>32、最长有效括号 (7+)</td>
+<td>Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="栈-单调栈"><a href="#栈-单调栈" class="headerlink" title="栈-单调栈"></a>栈-单调栈</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>255 验证前序遍历二叉搜索树序列</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>402 移掉K位数字</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>496 下一个更大元素</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>503 下一个更大元素II</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>84 柱状图最大矩形</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>85、最大矩形</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>316 去除重复字母</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>907 子数组的最小值之和</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>2289 使数组按非递减顺序排列</td>
+<td>very Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="堆（优先队列）"><a href="#堆（优先队列）" class="headerlink" title="堆（优先队列）"></a>堆（优先队列）</h2><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>215 数组中的第K个最大元素 (4+)</td>
+<td>Medium</td>
+<td><a target="_blank" rel="noopener" href="https://pass_co2.gitee.io/posts/9a31e8f5.html">leetcode-215. 数组中的第K个最大元素</a></td>
+</tr>
+<tr>
+<td>239 滑动窗口最大值 (6)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>253 会议室II (4+)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>347 前K个高频元素 (5+)</td>
+<td>Medium</td>
+<td><a target="_blank" rel="noopener" href="https://pass_co2.gitee.io/posts/a6b57153.html">leetcode-347. 前 K 个高频元素</a></td>
+</tr>
+<tr>
+<td>358 K距离间隔重排字符串 (6+)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>373 查找和最小的K对数字 (6)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>502 IPO (6+)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>295 数据流的中位数 (7)</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>407 接雨水II (8+)</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>480 滑动窗口中位数 (10-)</td>
+<td>very Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="字典树"><a href="#字典树" class="headerlink" title="字典树"></a>字典树</h2><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>208 实现前缀树 (3)</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>720 词典中最长的单词 (3+)</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>211 添加与搜索单词 (4)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>212 单词搜索II (6-)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>676 实现一个魔法字典 (5+)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1804 实现前缀树II (4)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>472 连接词 (7-)</td>
+<td>Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="并查集"><a href="#并查集" class="headerlink" title="并查集"></a>并查集</h2><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1971.寻找图中是否存在路径</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>305 岛屿数量II</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>547.省份数量</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1627 带阈值的图连通性</td>
+<td>Medium    并查集+埃氏筛</td>
+<td></td>
+</tr>
+<tr>
+<td>1697 检查边长度限制的路径是否存在</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>2092 找出知晓秘密的所有专家</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>2204 无向图中到环的距离</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1579 保证图可完全遍历</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>2076 处理含限制条件的好友请求</td>
+<td>Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="哈希表"><a href="#哈希表" class="headerlink" title="哈希表"></a>哈希表</h2><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>202、快乐数</td>
+<td>Easy</td>
+<td><a target="_blank" rel="noopener" href="https://pass_co2.gitee.io/posts/57a0e4d.html">leetcode-202.快乐数</a></td>
+</tr>
+<tr>
+<td>204、计数质数</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>205、同构字符串</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>290、单词规律</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>387、字符串中的第一个唯一字符</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>594、最长和谐子序列</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>599、两个列表的最小索引总和</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>645、错误的集合</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>720、词典中最长的单词</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>884、两句话中的不常见单词</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>970、强整数 看的答案，豁然开朗</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>1207、独一无二的出现次数</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>3、无重复字符的最长子串</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>215、数组中的第K个最大元素 经典</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>347、前 K 个高频元素</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>380、常数时间插入、删除和获取随机元素</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>451、根据字符出现频率排序</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>648、单词替换</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>692、前K个高频单词</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>718、最长重复子数组 经典</td>
+<td>Medium</td>
+<td></td>
+</tr>
+</tbody></table>
+<h1 id="Part3-算法题"><a href="#Part3-算法题" class="headerlink" title="Part3-算法题"></a>Part3-算法题</h1><h2 id="BFS"><a href="#BFS" class="headerlink" title="BFS"></a>BFS</h2><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>286 墙与门</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>127 单词接龙</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>317 离建筑物的最近距离</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>417 太平洋大西洋</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>773 滑动谜题</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>815 公交路线</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>909 蛇梯棋</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>2146 价格范围内最高排名的 K 样物品</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>2290 到达角落需要移除障碍物的最少数量</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>126 单词接龙II</td>
+<td>Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="DFS"><a href="#DFS" class="headerlink" title="DFS"></a>DFS</h2><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>690 员工的重要性</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>130 被围绕的区域</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>200 岛屿数量</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>339 嵌套列表权重和</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>341 扁平嵌套列表迭代器</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>529 扫雷游戏</td>
+<td>Medium</td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="DP"><a href="#DP" class="headerlink" title="DP"></a>DP</h2><h3 id="DP-递推公式"><a href="#DP-递推公式" class="headerlink" title="DP-递推公式"></a>DP-递推公式</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>70 爬楼梯 (3-)</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>118 杨辉三角 (2)</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>119 杨辉三角II (2)</td>
+<td>Easy</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="DP-打家劫舍"><a href="#DP-打家劫舍" class="headerlink" title="DP-打家劫舍"></a>DP-打家劫舍</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>91 解码方法 (3)</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>198 打家劫舍 (3-)</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>213 打家劫舍II (3+)</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>639 解码方法II (5)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>740 删除并获得点数 (5-)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="DP-子数组问题"><a href="#DP-子数组问题" class="headerlink" title="DP-子数组问题"></a>DP-子数组问题</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>53 最大子序和 (4-)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>152 乘积最大子数组 (5+)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>718 最长公共子数组 (4)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="DP-股票问题"><a href="#DP-股票问题" class="headerlink" title="DP-股票问题"></a>DP-股票问题</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>121 买卖股票的最佳时机 (3+)</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>122 买卖股票的最佳时机II (3) 可贪心解</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>309 买卖股票的最佳时机冷冻 (5)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>714 买卖股票的最佳时机手续费 (4) 可贪心解</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>2054 两个最好的不重叠活动 (6+)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>123 买卖股票的最佳时机III (7-)</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>188 买卖股票的最佳时机IV (7)</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>1751 最多可以参加的会议数目II (7-)</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>1235 规划兼职工作 (7-)</td>
+<td>Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="DP-一维数组（平方级时间复杂度）"><a href="#DP-一维数组（平方级时间复杂度）" class="headerlink" title="DP-一维数组（平方级时间复杂度）"></a>DP-一维数组（平方级时间复杂度）</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>279 完全平方数</td>
+<td>Medium    可用数学方法解</td>
+<td></td>
+</tr>
+<tr>
+<td>300 最长递增子序列</td>
+<td>Medium    可用贪心+二分</td>
+<td></td>
+</tr>
+<tr>
+<td>343 整数拆分</td>
+<td>Medium    可用数学方法解</td>
+<td></td>
+</tr>
+<tr>
+<td>368 最大整除子集</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>650 只有两个键的键盘</td>
+<td>Medium    可用数学方法解</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="DP-二维路径和问题"><a href="#DP-二维路径和问题" class="headerlink" title="DP-二维路径和问题"></a>DP-二维路径和问题</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>62 不同路径</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>63 不同路径II</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>64 最小路径和</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>120 三角形最小路径和</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>174 地下城游戏</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>221 最大正方形</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>329 矩阵中的最长递增路径</td>
+<td>Medium    记忆化搜索实现</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="DP-字符串"><a href="#DP-字符串" class="headerlink" title="DP-字符串"></a>DP-字符串</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>72 编辑距离 (6)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>115 不同的子序列 (6+)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1143 最长公共子序列 (6)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>10 正则表达式匹配 (8+)</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>44 通配符匹配 (7)</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>97 交错字符串 (7-)</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>1987 不同的好子序列数目 (9-)</td>
+<td>Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="DP-回文字符串"><a href="#DP-回文字符串" class="headerlink" title="DP-回文字符串"></a>DP-回文字符串</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>5 最长回文子串</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>131 分割回文串</td>
+<td>Medium    DP预处理+回溯</td>
+<td></td>
+</tr>
+<tr>
+<td>132 分割回文串II</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>516 最长回文子序列</td>
+<td>Medium</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="DP-背包问题"><a href="#DP-背包问题" class="headerlink" title="DP-背包问题"></a>DP-背包问题</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>322 零钱兑换</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>377 组合总和IV</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>416 分割等和子集</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>474 一和零</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>518 零钱兑换II</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>2218 从栈中取出 K 个硬币的最大面值和</td>
+<td>Hard    分组背包</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="DP-粉刷房子"><a href="#DP-粉刷房子" class="headerlink" title="DP-粉刷房子"></a>DP-粉刷房子</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>256 粉刷房子 (3)</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>276 栅栏涂色 (3)</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>265 粉刷房子II (5)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>552 学生出勤记录II (5+)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="DP-状态压缩"><a href="#DP-状态压缩" class="headerlink" title="DP-状态压缩"></a>DP-状态压缩</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>464 我能赢吗</td>
+<td>Hard    记忆化搜索实现，博弈问题</td>
+<td></td>
+</tr>
+<tr>
+<td>1349 参加考试的最大学生数</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>2172 数组的最大与和</td>
+<td>Hard    三进制状态压缩</td>
+<td></td>
+</tr>
+<tr>
+<td>2247 K次旅行的最大花费</td>
+<td>Hard    DP与图论结合</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="DP-区间"><a href="#DP-区间" class="headerlink" title="DP-区间"></a>DP-区间</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>375 猜数字大小II</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>486 预测赢家</td>
+<td>Medium</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="DP-其他"><a href="#DP-其他" class="headerlink" title="DP-其他"></a>DP-其他</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>600 不含连续1的非负整数</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>264 丑数II</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>313 超级丑数</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>808 分汤</td>
+<td>Hard    DP算概率</td>
+<td></td>
+</tr>
+<tr>
+<td>837 新21点</td>
+<td>Hard    DP算概率</td>
+<td></td>
+</tr>
+<tr>
+<td>1477 找两个和为目标值且不重叠的子数组</td>
+<td>Hard    DP+滑动窗口/前缀和</td>
+<td></td>
+</tr>
+<tr>
+<td>546 移除盒子</td>
+<td>very Hard    3维DP数组，难度极高</td>
+<td></td>
+</tr>
+<tr>
+<td>1397 找到所有好字符串</td>
+<td>very Hard    数位DP+KMP，全网顶级hard之一</td>
+<td></td>
+</tr>
+<tr>
+<td>2060 同源字符串检测</td>
+<td>very Hard    3~4维DP数组，难度极高</td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="贪心"><a href="#贪心" class="headerlink" title="贪心"></a>贪心</h2><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>455 分发饼干</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>605 种花问题</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>781 森林中的兔子</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>944、删列造序</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>1029、两地调度</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>1046、最后一块石头的重量</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>1049、最后一块石头的重量 II</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>1217、玩筹码</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>1221、分割平衡字符串</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>1877 数组中最大数对和的最小值</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>1953 你可以工作的最大周数</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>11 最多水的容器</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>45 跳跃游戏II</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>135 分发糖果</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>334 递增的三元子序列</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>406 根据身高重建队列</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>435 无重叠区间</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>452 用最少数量的箭引爆气球</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>678 有效括号字符串</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1147 段式回文</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>2268 最少按键次数</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>134 加油站</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>330 按要求补齐数组</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>517 超级洗衣机</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>659 分割数组为连续子序列</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>1686 石子游戏VI</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>2350 不可能得到的最短骰子序列</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>2071 你可以安排的最多任务数目</td>
+<td>very Hard    贪心+二分+优先/单调队列综合</td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="回溯"><a href="#回溯" class="headerlink" title="回溯"></a>回溯</h2><h3 id="回溯-初识回溯"><a href="#回溯-初识回溯" class="headerlink" title="回溯-初识回溯"></a>回溯-初识回溯</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>17 电话号码的字母组合</td>
+<td>Easy</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="回溯-排列组合子集问题"><a href="#回溯-排列组合子集问题" class="headerlink" title="回溯-排列组合子集问题"></a>回溯-排列组合子集问题</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>46 全排列 (3)</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>78 子集 (3+)</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>39 组合总和 (4-)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>40 组合总和II (5)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>47 全排列II (4)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>77 组合 (4-)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>78、子集</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>90 子集II (4+)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="回溯-其他高级问题"><a href="#回溯-其他高级问题" class="headerlink" title="回溯-其他高级问题"></a>回溯-其他高级问题</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>526 优美的排列</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>37 解数独</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>51 N皇后</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>79 单词搜索</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>93 复原IP地址</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>254 因子的组合</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>291 单词规律II</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>294 翻转游戏II</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>301 删除无效的括号</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>679 24点游戏</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>996 正方形数组的数目</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1240 铺瓷砖</td>
+<td>Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="二分查找"><a href="#二分查找" class="headerlink" title="二分查找"></a>二分查找</h2><h3 id="二分-基本型"><a href="#二分-基本型" class="headerlink" title="二分-基本型"></a>二分-基本型</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>33 搜索旋转排序数组</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>34 在排序数组中查找元素的第一个和最后一个位置</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>35 搜索插入位置</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>81 搜索旋转排序数组II</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>167、两数之和 II - 输入有序数组</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>278、第一个错误的版本</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>367、有效的完全平方数</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>374、猜数字大小</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>441、排列硬币</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>475、供暖器,很经典</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>704 二分查找</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>744、寻找比目标字母大的最小字母</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>1095、山脉数组中查找目标值</td>
+<td>Easy</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="二分-进阶型"><a href="#二分-进阶型" class="headerlink" title="二分-进阶型"></a>二分-进阶型</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>29、两数相除</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>153、寻找旋转排序数组中的最小值</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>162 寻找峰值</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>275 H指数II</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>436、寻找右区间,很好的题</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>454、四数相加 II</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>540 有序数组中的单一元素</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>792、匹配子序列的单词数</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1818 绝对差值和</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>4 寻找两个正序数组中位数</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>302 包含全部黑色像素</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>1901 找出顶峰元素II</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>1964 最长递增子序列进阶</td>
+<td>Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="二分-转化判定问题（俗称二分猜答案）"><a href="#二分-转化判定问题（俗称二分猜答案）" class="headerlink" title="二分-转化判定问题（俗称二分猜答案）"></a>二分-转化判定问题（俗称二分猜答案）</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>69 Sqrt</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>410 分割数组的最大值</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>875 爱吃香蕉的珂珂</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1970 穿过矩阵的最后一天</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>287 寻找重复数</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>378 有序矩阵的第K小元素</td>
+<td>Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="前缀和"><a href="#前缀和" class="headerlink" title="前缀和"></a>前缀和</h2><h3 id="前缀和-普通型"><a href="#前缀和-普通型" class="headerlink" title="前缀和-普通型"></a>前缀和-普通型</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>303 区域检索-数组不可变</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>1480 一维数组的动态和</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>238 除自身以外数组的乘积</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>523 连续的子数组和</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>525 连续数组</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>528 按权重随机选择</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>560 和为K的子数组</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>2245 转角路径的乘积中最多能有几个尾随零</td>
+<td>Hard     二维矩阵中的一维前缀和+数学</td>
+<td></td>
+</tr>
+<tr>
+<td>2281 巫师的总力量和</td>
+<td>Hard    单调栈+前缀和的前缀和</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="前缀和-二维"><a href="#前缀和-二维" class="headerlink" title="前缀和-二维"></a>前缀和-二维</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>304 区域检索-矩阵不可变</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1314 矩阵区域和</td>
+<td>Medium</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="前缀和-构造差分数组"><a href="#前缀和-构造差分数组" class="headerlink" title="前缀和-构造差分数组"></a>前缀和-构造差分数组</h3><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>370 区间加法</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1094 拼车</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1109 航班预定统计</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>798 得分最高的最小轮调</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>2132 用邮票贴满网格图</td>
+<td>Hard    二维差分数组+两次二维前缀和</td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="滑动窗口"><a href="#滑动窗口" class="headerlink" title="滑动窗口"></a>滑动窗口</h2><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>187 重复的DNA序列 (3)</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>209 长度最小的子数组 (3+)</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>438 找到字符串中所有字母异位词 (3+)</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>3 无重复字符的最长子串 (4-)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>30 串联所有单词的子串 (6)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>340 最多包含K个不同字符的最长子串 (5-)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>424 替换后的最长重复字符 (4)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>713 乘积小于K的子数组 (4)</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>76 最小覆盖子串 (7-)</td>
+<td>Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="分治"><a href="#分治" class="headerlink" title="分治"></a>分治</h2><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1274 矩形内船只的数目</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>932 漂亮数组</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>1763 最长的美好子字符串</td>
+<td>Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="位运算"><a href="#位运算" class="headerlink" title="位运算"></a>位运算</h2><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>136 只出现一次的数字</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>371 两整数之和</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>477 汉明距离总和</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>1310 子数组异或查询</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>201 数字范围按位与</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>260 只出现一次的数字III</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>318 最大单词长度乘积</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>982 按位与为零的三元组</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1284 转化为全零矩阵的最少反转次数</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1734 解码异或后的排列</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>2313 操作后的最大异或和</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>137 只出现一次的数字II</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>421 数组中两个数的最大异或</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>898 子数组按位或操作</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>2354 优质数对的数目</td>
+<td>Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h1 id="Part4-数学题"><a href="#Part4-数学题" class="headerlink" title="Part4-数学题"></a>Part4-数学题</h1><h2 id="数学-模拟竖式"><a href="#数学-模拟竖式" class="headerlink" title="数学-模拟竖式"></a>数学-模拟竖式</h2><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>66 加一</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>166 分数到小数</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>415 字符串相加</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>43 字符串相乘</td>
+<td>Medium</td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="数学-进制转换"><a href="#数学-进制转换" class="headerlink" title="数学-进制转换"></a>数学-进制转换</h2><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>171 Excel表序号</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>405 转换为十六进制数</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>168 Excel表名称</td>
+<td>Medium</td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="数学-几何"><a href="#数学-几何" class="headerlink" title="数学-几何"></a>数学-几何</h2><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>149 直线最多的点</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>223 矩形面积</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>296 最佳碰头地点</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>356 直线镜像</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>462 最少移动次数使数组元素相等</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>593 有效的正方形</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>335 路径交叉</td>
+<td>Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="数学-其他"><a href="#数学-其他" class="headerlink" title="数学-其他"></a>数学-其他</h2><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>268 丢失的数字 (2+)</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>292 Nim游戏 (2)</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>357 计算各个位数不同的数字个数 (3+)</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>60 排列序列</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>172 阶乘后的零</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>204 计数质数</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>233 数字1的个数</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>258 各位相加</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>319 灯泡开关</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>360 有序转化数组</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>365 水壶问题</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1518 换酒问题</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>458 可怜的小猪</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>483 最小好进制</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>1735 生成乘积数组的方案数</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>1823 找出游戏的获胜者</td>
+<td>Hard    经典约瑟夫环问题</td>
+<td></td>
+</tr>
+</tbody></table>
+<h1 id="Part5-设计题"><a href="#Part5-设计题" class="headerlink" title="Part5-设计题"></a>Part5-设计题</h1><table>
+<thead>
+<tr>
+<th>题目</th>
+<th>难度</th>
+<th>Go</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1570 两个稀疏向量的点积</td>
+<td>Easy</td>
+<td></td>
+</tr>
+<tr>
+<td>271 字符串的编解码</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>284 窥探迭代器</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>348 井字棋</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>353 贪吃蛇</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>355 设计推特</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>380 O(1)插入删除随机不重复</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>381 O(1)插入删除随机有重复</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>1500 设计文件分享系统</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>2296 设计一个文本编辑器</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>146 LRU缓存</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>352 将数据流变为多个不相交区间</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>460 LFU缓存</td>
+<td>Hard</td>
+<td></td>
+</tr>
+<tr>
+<td>1206 设计跳表</td>
+<td>Hard</td>
+<td></td>
+</tr>
+</tbody></table>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Co2</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://cotocode.github.io/posts/94f69fa5.html">https://cotocode.github.io/posts/94f69fa5.html</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">Co2</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/leetcode/">
+                                    <span class="chip bg-color">leetcode</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="qq,qzone,wechat,weibo,twitter,facebook,google,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/null" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/null" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    .v[data-class="v"] .vwrap .vheader .vinput {
+      width: 32%;
+      border-bottom: 1px dashed #dedede;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<script>
+let metaPlaceholder = {"nick":"昵称/QQ号(必填)","mail":"邮箱(必填)","link":"网址(https://)"} ;
+//这里要换行
+new Valine({
+        el: '#vcomments',
+        appId: 'VcuIb18ChiUResvdC9rRjfLR-gzGzoHsz',
+        appKey: 'E67yF3u2y3WScPxLQVA4TNXb',
+        notify: 'true' === 'true',
+        verify: 'true' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'monsterid',
+        pageSize: '10',
+        lang: 'zh-CN',
+        placeholder: '留下你的足迹..',
+        meta: ["nick", "mail", "link"],
+        recordIP: 'true' === 'true',
+        enableQQ: 'monsterid',
+        requiredFields: ["dbc763779dc5422cf4a49f9e14801e6a"],
+        master: ["dbc763779dc5422cf4a49f9e14801e6a"],
+        friends: ["cb3e577ff029d6073400d5557effd41f", ""],
+        tagMeta: ["博主", "小伙伴", "访客"],
+        metaPlaceholder: metaPlaceholder,
+
+    });
+
+    document.body.addEventListener('click', function(e) {
+        if (e.target.classList.contains('vsubmit')) {
+            const email = document.querySelector('input[type=email]');
+            const nick = document.querySelector('input[name=nick]');
+            const reg = /^[A-Za-z0-9_-\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
+            if (!email.value || !nick.value || !reg.test(email.value)) {
+                const str = `<div class="valert txt-center"><div class="vtext">请填写正确的昵称和邮箱！</div></div>`;
+                const vmark = document.querySelector('.vmark');
+                vmark.innerHTML = str;
+                vmark.style.display = 'block';
+
+                e.stopPropagation();
+
+                setTimeout(function() {
+                    vmark.style.display = 'none';
+                    vmark.innerHTML = '';
+                }, 2500);
+            }
+        }
+        }, true);
+</script>
+
+
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/posts/c517589e.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="https://img1.imgtp.com/2022/09/10/gqSZdZQj.jpg" class="responsive-img" alt="并查集">
+                        
+                        <span class="card-title">并查集</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-08-21
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" class="post-category">
+                                    数据结构
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
+                        <span class="chip bg-color">数据结构</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/posts/8f5bca0f.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="https://img1.imgtp.com/2022/09/10/iZVp9b5l.jpg" class="responsive-img" alt="C++黑马程序员---五、函数高级">
+                        
+                        <span class="card-title">C++黑马程序员---五、函数高级</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-06
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/C-%E9%BB%91%E9%A9%AC%E7%A8%8B%E5%BA%8F%E5%91%98/" class="post-category">
+                                    C++黑马程序员
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/C/">
+                        <span class="chip bg-color">C++</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                        <span class="chip bg-color">笔记</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'CODE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: Co2<br />'
+            + '文章作者: Co2<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h1,h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h1,h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="2829733864"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2022</span>
+            
+            <span id="year"></span>
+            <a href="/about" target="_blank">Co2</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2022";
+                    var startMonth = "7";
+                    var startDate = "23";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/cotocode/" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:1943821907@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1943821907" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1943821907" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+<div>
+    <a target="_blank" rel="noopener" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">本网站由又拍云提供CDN加速/云存储服务</a>
+ </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.11/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+
+    <!-- Baidu Analytics -->
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?aaa6c944b0ed07922901d7fc571a171d";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+<!-- 深色模式按钮 -->
+    <script>
+        if (localStorage.getItem('dark') === '1') {
+        document.body.classList.add('dark');
+        }
+        else if (new Date().getHours() >= 22 || new Date().getHours() < 7) {
+        document.body.classList.add('dark');
+        } 
+        else if (matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+        }
+    </script>
+    <a onclick="switchNightMode()" id="sma">
+        <i class="fas fa-lightbulb" id="nightMode" aria-hidden="true"></i>
+    </a>
+
+    <!-- 天气接口控件   -->
+    
+        <script type="text/javascript">
+        WIDGET = {FID: 'zLkJSQpqsh'}
+        </script>
+    <!-- <script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script> -->
+
+    <script type="text/javascript">
+      var windowWidth = $(window).width();
+      if (windowWidth > 768) {
+          document.write('<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"><\/script>');
+      }
+    </script>
+    
+    
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i["DaoVoiceObject"] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            a.charset = "utf-8";
+            m.parentNode.insertBefore(a, m)
+        })(window, document, "script", ('https:' == document.location.protocol ? 'https:' : 'http:') +
+            "//widget.daovoice.io/widget/6984b559.js", "daovoice")
+        daovoice('init', {
+            app_id: "4xxxxxxxe"
+        });
+        daovoice('update');
+    </script>
+    
+
+	
+    
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
+    
+
+<!-- 雪花特效 --> 
+
+
+<!-- 代码雨特效 --> 
+ 
+<script type="text/javascript" src="/libs/others/DigitalRain.js"></script> 
+
+
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+<script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=i;var e=n.imageLazyLoadSetting.isSPA,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function i(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight||document.documentElement.clientHeight)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},n.src=i}()}i(),n.addEventListener("scroll",function(){var t,e;t=i,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
+
+</html>
